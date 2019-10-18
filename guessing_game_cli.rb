@@ -23,7 +23,7 @@ end #method
 
 def run_guessing_game()
   target_num = generate_random_number()
-  #puts "Target number: #{target_num}"
+  puts "Target number: #{target_num}"
   #prompt_user()
   user_guess = get_user_guess()
   check_guess(user_guess, target_num)
