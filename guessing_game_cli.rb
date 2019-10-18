@@ -1,6 +1,6 @@
 def generate_random_number()
-  #2
-  rand(1..6)
+  6
+  #rand(1..6)
 end #method
 
 def prompt_user()
